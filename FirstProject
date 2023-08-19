@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int number;
+    cout << "Guess a number, any number " << '\n';
+    cin >> number;
+    cout << "Your number " << number << '\n'; 
+    return 0;
+}
